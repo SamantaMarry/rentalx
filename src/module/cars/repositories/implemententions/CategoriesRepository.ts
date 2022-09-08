@@ -4,7 +4,7 @@ import { CreateCategoryDTO, ICategoriesRepository } from "../ICategoriesReposito
 
 
 
-class CategoryRepository implements ICategoriesRepository {
+class CategoriesRepository implements ICategoriesRepository {
   private repository: Repository<Category>;
 
    constructor() {
@@ -35,4 +35,4 @@ class CategoryRepository implements ICategoriesRepository {
   }
 }
 
-export { CategoryRepository };
+export { CategoriesRepository };
